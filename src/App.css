@@ -1,0 +1,41 @@
+:root {
+  text-align: center;
+  margin: 0 auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Light{
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+.Dark {
+  background-color: #000;
+  color:#fff ;
+  transition: background-color 0.3s, color 0.3s;
+}
+span{
+  border-radius:8px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.Lightbtn{
+ background-color: #000;
+ color: #fff;
+}
+.darkbtn{
+  background-color:#fff;
+  color: #000;
+}
+
+
+
+
